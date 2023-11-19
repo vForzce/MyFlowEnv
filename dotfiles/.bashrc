@@ -158,4 +158,8 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 eval "$(starship init bash)"
+# Golang export path and setup
 export PATH=$PATH:/usr/local/go/bin
+# Flutter export path and setup
+ export PATH="$PATH:`pwd`/flutter/bin"
+
