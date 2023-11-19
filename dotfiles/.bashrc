@@ -161,5 +161,4 @@ eval "$(starship init bash)"
 # Golang export path and setup
 export PATH=$PATH:/usr/local/go/bin
 # Flutter export path and setup
- export PATH="$PATH:`pwd`/flutter/bin"
-
+export PATH="$PATH:/home/vforzce/Development/Tools/flutter/bin"
